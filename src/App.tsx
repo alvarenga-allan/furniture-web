@@ -1,10 +1,9 @@
-import {ButtonLarge, ButtonSmall} from './components';
+import LargeButton from './components/LargeButton/LargeButton.component';
 
 function App() {
   return (
     <div className="App">
-     <ButtonLarge/>
-     <ButtonSmall/>
+      <LargeButton buttonVariation="primary" />
     </div>
   );
 }
